@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Amboja</title>
+    <link rel="stylesheet" href="../css/stylee.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="../js/scripts.js"></script>
+
+    <!--	Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--	Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--	Bootstrap Icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <style>
+      .restaurant-card {
+        border: 2px solid #22b57f;
+        border-radius: 8px;
+        padding: 20px;
+        width: 300px;
+        margin: 80px;
+        background-color: #e6e6e6;
+        position: relative;
+        margin-top: -12%;
+      }
+      .restaurant-card h4 {
+        font-weight: bold;
+        left: 0;
+        right: 0;
+        padding: 0px 10px;
+      }
+      .contain {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: -10%;
+      }
+      .satu {
+        display: flex;
+        align-items: center;
+      }
+      .utama h6 {
+        text-align: justify;
+        color: #3c3c3c;
+        font-family: "popins", sans-serif;
+        width: 550px;
+        height: auto;
+        margin-right: 20px;
+      }
+      .green-button {
+        display: inline-block;
+        padding: 3px 35px;
+        background-color: #22b57f;
+        color: #e6e6e6;
+        text-decoration: none;
+        border-radius: 15px;
+        font-weight: bold;
+        margin-left: 16%;
+      }
+      .carousel-item {
+        padding: 0;
+        margin-bottom: 3%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="logo">
+        <img src="../images/Logo1.png" alt="Logo Perusahaan" />
+      </div>
+      <div class="wrapper">
+        <div class="search_wrap search_wrap_3">
+          <div class="search_box">
+            <input
+              type="text"
+              class="input"
+              placeholder="Pencarian resep,restoran,lowongan..."
+            />
+            <div class="btn btn_common">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="user-actions">
+        <a href="masuk.html">
+          <i class="fa-regular fa-circle-user" style="color: black"></i>
+          <span style="color: black">Masuk</span>
+        </a>
+        <a href="daftar.html" style="background-color: #2a4877">
+          <i
+            class="fa-solid fa-arrow-right-to-bracket"
+            style="color: #ffffff"
+          ></i>
+          Daftar
+        </a>
+      </div>
+    </div>
+
+    <nav class="navbarr">
+      <ul class="navbarr-list">
+        <li class="navbarr-item"><a href="../index.html">Beranda</a></li>
+        <li class="navbarr-item"><a href="Resep.html">Resep Masakan</a></li>
+        <li class="navbarr-item"><a href="Resto.html">Restoran Mitra</a></li>
+        <li class="navbarr-item"><a href="event.html">Event Kuliner</a></li>
+        <li class="navbarr-item"><a href="lowongan.html">Lowongan Kerja</a></li>
+        <li class="navbarr-item"><a href="Pelatihan.html">Pelatihan</a></li>
+      </ul>
+    </nav>
+    <!-- konten resto -->
+    <div class="contain">
+      <div class="main-container">
+        <div class="satu">
+          <div class="utama">
+            <h7 style="font-size: 13px; color: rgb(78, 78, 78)"
+              >Perempuan/Laki-laki Min. 20 tahun</h7
+            >
+            <h3>Pelatihan Memasak- <br />FiberCreme Academy</h3>
+            <h7 style="font-size: 13px; color: rgb(78, 78, 78)"
+              ><i
+                class="fa-regular fa-calendar-days"
+                style="color: #2e2e2e"
+              ></i>
+              09-10 Oktober 2023</h7
+            >
+            <br />
+            <br />
+            <h6>
+              Fibercreme Academy, tempat pelatihan pembuatan makanan yang
+              populer saat ini, kembali hadir dengan program pelatihan memasak
+              yang akan membantu Anda menjadi ahli di dapur. <br /><br />
+              <p style="font-weight: bold">Benefit</p>
+              <ul style="font-size: 16px; text-align: justify">
+                <li>Belajar cara memasak makanan yang baik untuk kesehatan.</li>
+                <li>
+                  Belajar dari ahli di bidang yang akan membimbing Anda dalam
+                  proses membuat makanan lezat dan bergizi.
+                </li>
+                <li>
+                  Meningkatkan kepercayaan diri dalam keterampilan memasak dan
+                  memperluas pengetahuan kuliner Anda.
+                </li>
+                <li>
+                  Mengembangkan gaya hidup sehat dengan memasukkan makanan yang
+                  kaya serat dalam diet Anda.
+                </li>
+                <li>
+                  Menerima sertifikat penyelesaian dari Fibercreme Academy, yang
+                  dapat membantu Anda lebih lanjut dalam karir kuliner Anda.
+                </li>
+              </ul>
+              <p style="font-weight: bold">Syarat-syarat Pekerjaan</p>
+              <ul style="font-size: 16px; text-align: justify">
+                <li>
+                  Minat dalam memasak sehat dan keinginan untuk belajar lebih
+                  lanjut tentang manfaat makanan kaya serat.
+                </li>
+                <li>
+                  Bersedia untuk mengabdikan waktu dan usaha untuk program
+                  pelatihan.
+                </li>
+                <li>
+                  Harus berusia 20 tahun atau lebih untuk berpartisipasi dalam
+                  program pelatihan.
+                </li>
+              </ul>
+            </h6>
+          </div>
+          <div class="restaurant-card">
+            <h4>Pelatihan Memasak- <br />FiberCreme Academy</h4>
+            <p><i class="fas fa-globe"></i> fibercreme.com</p>
+            <p><i class="fab fa-instagram"></i> @fibercreme</p>
+            <p><i class="fab fa-facebook"></i> fibercreme academy</p>
+            <a href="#" class="green-button" style="color: #ffffff"
+              >Link Daftar
+              <i
+                class="fa-solid fa-arrow-right-to-bracket"
+                style="color: #ffffff"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-lowo">
+      <h2 style="color: rgb(46, 46, 46)">Pelatihan Lainnya</h2>
+      <h6 style="color: rgb(46, 46, 46)">Temukan Pelatihan Lainnya</h6>
+      <div class="button-container text-end">
+        <a href="Pelatihan.html" class="lihat-semua-link"
+          >Lihat Semua
+          <i class="bi bi-chevron-right" style="vertical-align: middle"></i
+        ></a>
+      </div>
+      <div id="carousel_event" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card m-2 mx-auto mt-5" style="max-width: 900px">
+              <div class="row g-0">
+                <div class="col-md-3 p-3 d-flex justify-content-center">
+                  <img
+                    src="../images/pelatihan1.png"
+                    class="img-fluid rounded object-fit-cover thumbnail"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="card-body ps-4">
+                    <p class="card-text m-0 my-2">
+                      <span class="text-muted fs-6"
+                        >Perempuan/Laki-laki Min. 20 tahun</span
+                      >
+                    </p>
+                    <p class="card-title fw-bold">
+                      Pelatihan Memasak-FiberCreme Academy
+                    </p>
+                    <p class="card-text">
+                      <span class="text-muted fs-6"
+                        >09 Oktober 2023 - 10 Oktober 2023</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 d-flex align-items-center"
+                  onmouseover="In(this)"
+                  onmouseout="Out(this)"
+                >
+                  <button
+                    class="tbn-forward mb-3 px-5 py-2"
+                    onclick="location.href='pelatihan2.html'"
+                  >
+                    Lihat Detail <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card m-2 mx-auto" style="max-width: 900px">
+              <div class="row g-0">
+                <div class="col-md-3 p-3 d-flex justify-content-center">
+                  <img
+                    src="../images/pelatihan2.png"
+                    class="img-fluid rounded object-fit-cover thumbnail"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="card-body ps-4">
+                    <p class="card-text m-0 my-2">
+                      <span class="text-muted fs-6"
+                        >Perempuan/Laki-laki Min. 20 tahun</span
+                      >
+                    </p>
+                    <p class="card-title fw-bold">
+                      Pelatihan Bidang F&B Production – PASTRY
+                      COOK-Kemenparekraf RI
+                    </p>
+                    <p class="card-text">
+                      <span class="text-muted fs-6">23 Oktober 2023</span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 d-flex align-items-center"
+                  onmouseover="In(this)"
+                  onmouseout="Out(this)"
+                >
+                  <button
+                    class="tbn-forward mb-3 px-5 py-2"
+                    onclick="location.href='pelatihan2.html'"
+                  >
+                    Lihat Detail <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card m-2 mx-auto" style="max-width: 900px">
+              <div class="row g-0">
+                <div class="col-md-3 p-3 d-flex justify-content-center">
+                  <img
+                    src="../images/pelatihan3.png"
+                    class="img-fluid rounded object-fit-cover thumbnail"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="card-body ps-4">
+                    <p class="card-text m-0 my-2">
+                      <span class="text-muted fs-6"
+                        >Perempuan/Laki-laki Min. 20 tahun</span
+                      >
+                    </p>
+                    <p class="card-title fw-bold">
+                      Pelatihan Bidang F&B Production-BAKER-Kemenparekraf RI
+                    </p>
+                    <p class="card-text">
+                      <span class="text-muted fs-6"
+                        >09 November 2023 - 10 November 2023</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 d-flex align-items-center"
+                  onmouseover="In(this)"
+                  onmouseout="Out(this)"
+                >
+                  <button
+                    class="tbn-forward mb-3 px-5 py-2"
+                    onclick="location.href='pelatihan2.html'"
+                  >
+                    Lihat Detail <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card m-2 mx-auto" style="max-width: 900px">
+              <div class="row g-0">
+                <div class="col-md-3 p-3 d-flex justify-content-center">
+                  <img
+                    src="../images/pelatihan4.png"
+                    class="img-fluid rounded object-fit-cover thumbnail"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="card-body ps-4">
+                    <p class="card-text m-0 my-2">
+                      <span class="text-muted fs-6"
+                        >Perempuan/Laki-laki Min. 20 tahun</span
+                      >
+                    </p>
+                    <p class="card-title fw-bold">
+                      Pelatihan Bidang F&B Production-COOK / Juru
+                      Masak-Kemenparekraf RI
+                    </p>
+                    <p class="card-text">
+                      <span class="text-muted fs-6"
+                        >17 November 2023 - 24 November 2023</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 d-flex align-items-center"
+                  onmouseover="In(this)"
+                  onmouseout="Out(this)"
+                >
+                  <button
+                    class="tbn-forward mb-3 px-5 py-2"
+                    onclick="location.href='pelatihan2.html'"
+                  >
+                    Lihat Detail <i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a
+            class="carousel-control-prev"
+            href="#carousel_event"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-lowo">
+              <i class="fas fa-chevron-circle-left fa-2x"></i>
+            </span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carousel_event"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-lowo">
+              <i class="fas fa-chevron-circle-right fa-2x"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="col-1">
+        <img src="../images/Logo2.png" alt="Logo" />
+      </div>
+      <div class="col-2">
+        <ul>
+          <a href="../index.html">Beranda</a>
+          <a href="Resep.html">Resep Masakan</a>
+          <a href="Resto.html">Restoran Mitra</a>
+          <a href="event.html">Event Kuliner</a>
+          <a href="lowongan.html">Lowongan Kerja</a>
+          <a href="Pelatihan.html">Pelatihan</a>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul>
+          <a href="#">Kontak</a>
+          <a href="#">amboja@gmail.com</a>
+          <a href="#">(021) 000 234</a>
+          <a href="#">PT Warisan Kuliner</a>
+          <a href="#">JL.Ahmad Yani No.45 KM 20</a>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

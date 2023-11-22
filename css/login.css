@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 13px;
+    zoom: 0.8;
+}
+
+.login-container {
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 40%;
+}
+
+.image-container {
+    flex: 1;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image {
+    width: 112%; 
+    height: 109%; 
+    object-fit: cover; 
+}
+
+.form-container {
+    flex: 1;
+    padding: 50px;
+    max-width: 225px; 
+    margin: 0 auto; 
+}
+
+
+.login-container h4 {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label,
+.login-container input {
+    margin: 3px 0;
+}
+
+.login-container input[type="text"],.login-container input[type="teks"],
+.login-container input[type="konf"],.login-container input[type="kata sandi"] {
+    padding: 5px;
+    border: 1px solid #b0a6a6;
+    border-radius: 5px;
+}
+
+.login-container input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cancel-button,
+.register-button {
+    background-color: #ccc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover,
+.register-button:hover {
+    background-color: #ffffff;
+}
+
+.register-button {
+    background-color: #2A4877;
+}
+
+.register-button:hover {
+    background-color: #669edb;
+}
+p {
+    margin-top: 30px;
+    font-size: 12px; 
+    text-align: center; 
+}
+
+p a {
+    color: #007BFF;
+    cursor: pointer;
+}
+.logo-container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.logo-image {
+    max-width: 40%; 
+    height: auto; 
+}
